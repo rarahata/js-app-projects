@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  line-height: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li::first-letter{
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.weather-app-wrapper {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.weather-app {
+  border: 1px solid;
+  border-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);}
+
+.clearfix {
+  max-width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-icon {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+.date-time {
+  text-align: center;
+  line-height: 40px;
+}
+
+.temp {
+  font-size: 50px;
+}
+
+.active {
+color: black;
+}
+
+.active:hover {
+color: black;
+cursor: default;
+}
+
+.daily-info {
+  font-size: 18px;
+  margin: 0;
+}
+
+.weather-forecast {
+  text-align: center;
+}
+
+.credit {
+  text-align: center;
+}
