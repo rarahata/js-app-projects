@@ -9,6 +9,8 @@ function displayWeather(response){
   windSpeed.innerHTML = Math.round(response.data.wind.speed);
   let icon = document.querySelector("#weather-icon");
   icon.setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+  let description = document.querySelector("#description");
+  description.innerHTML = response.data.weather[0].description;
 } 
 
 function getCity(city){
