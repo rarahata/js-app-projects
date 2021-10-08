@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
   line-height: 50px;
+  font-size: 40px;
 }
 
 p {
@@ -34,10 +35,15 @@ a {
   margin: 20px auto;
   background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);}
 
-.clearfix {
-  max-width: 320px;
-  display: block;
-  margin: 0 auto;
+.tempAnddescription {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.degree {
+  display: flex;
+  justify-content: space-evenly;
+
 }
 
 .weather-icon {
